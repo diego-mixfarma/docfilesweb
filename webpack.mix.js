@@ -12,7 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix.autoload({
-    jQuery: ['$', 'window.jQuery', 'jQuery'],
+    jquery: ['$', 'window.jQuery', 'jQuery'],
     'popper.js': ['Popper']
 })
 .js(
