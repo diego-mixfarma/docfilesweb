@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('inicio',[
+    'as'=>'inicio',
+    'uses'=>'ExternoController@loginPage'
+]);
