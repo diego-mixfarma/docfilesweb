@@ -1,10 +1,9 @@
 <template>
-
     <div class="text-center">
         <form class="form-signin">
             <div class="card">
                 <div class="center-block">
-                    <img class="mb-4 logo" src="https://mbtskoudsalg.com/images/logo-png-1.png" alt="" width="220"
+                    <img class="mb-4 logo" src="/img/logo.png" alt="" width="220"
                         height="80">
                 </div>
                 <div class="card-body">
@@ -28,7 +27,7 @@
 <style>
     html,
     body {
-        background: url('https://www.publicdomainpictures.net/pictures/80000/velka/blue-background-clipart.jpg') no-repeat center center fixed;
+        background: url('/img/bg.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -89,6 +88,16 @@
         color: white;
         background-color: #80bfff;
         border-color: #80bfff;
+    }
+
+    .btn-cadastrar,
+    .btn-cadastrar:hover,
+    .btn-cadastrar:active,
+    .btn-cadasrar:visited,
+    .btn-cadasrar:focus {
+        color: white;
+        background-color: #004d99;
+        border-color: #004d99;
     }
 
 </style>
