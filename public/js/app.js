@@ -12664,22 +12664,32 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c(
-              "button",
+              "div",
               {
-                staticClass: "btn btn-block btn-xs btn-entrar mr-2",
-                attrs: { type: "submit" }
+                staticClass: "btn-group text-center",
+                attrs: { role: "group" }
               },
-              [_vm._v("Entrar")]
+              [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-xs btn-entrar mr-2",
+                    attrs: { type: "submit" }
+                  },
+                  [_vm._v("Entrar")]
+                ),
+                _vm._v(" "),
+                _c("a", { attrs: { href: "" } }, [
+                  _c("button", { staticClass: "btn btn-xs btn-cadastrar" }, [
+                    _vm._v("Cadastre-se")
+                  ])
+                ])
+              ]
             ),
             _vm._v(" "),
-            _c(
-              "button",
-              {
-                staticClass: "btn btn-block btn-xs btn-cadastrar",
-                attrs: { type: "link" }
-              },
-              [_vm._v("Cadastre-se")]
-            )
+            _c("div", { staticClass: "text-center mt-3" }, [
+              _c("a", { attrs: { href: "#" } }, [_vm._v("Esqueceu a senha?")])
+            ])
           ])
         ])
       ])

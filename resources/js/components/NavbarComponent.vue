@@ -3,8 +3,7 @@
         <form class="form-signin">
             <div class="card">
                 <div class="center-block">
-                    <img class="mb-4 logo" src="/img/logo.png" alt="" width="220"
-                        height="80">
+                    <img class="mb-4 logo" src="/img/logo.png" alt="" width="220" height="80">
                 </div>
                 <div class="card-body">
                     <label for="inputEmail" class="sr-only">Email address</label>
@@ -16,8 +15,15 @@
                             <input type="checkbox" value="remember-me"> Lembrar?
                         </label>
                     </div>
-                    <button type="submit" class="btn btn-block btn-xs btn-entrar mr-2">Entrar</button>
-                    <button type="link" class="btn btn-block btn-xs btn-cadastrar">Cadastre-se</button>
+                    <div class="btn-group text-center" role="group">
+                        <button type="submit" class="btn btn-xs btn-entrar mr-2">Entrar</button>
+                        <a href="">
+                            <button class="btn btn-xs btn-cadastrar">Cadastre-se</button>
+                        </a>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#">Esqueceu a senha?</a>
+                    </div>
                 </div>
             </div>
         </form>
