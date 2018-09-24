@@ -15,7 +15,7 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('navbar-component', require('./components/NavbarComponent.vue'));
+Vue.component('login-component', require('./components/LoginComponent.vue'));
 
 const app = new Vue({
     el: '#app'
