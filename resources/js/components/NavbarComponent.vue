@@ -15,9 +15,9 @@
                             <input type="checkbox" value="remember-me"> Lembrar?
                         </label>
                     </div>
-                    <div class="btn-group text-center" role="group">
+                    <div class="text-center">
                         <button type="submit" class="btn btn-xs btn-entrar mr-2">Entrar</button>
-                        <a href="">
+                        <a href="#">
                             <button class="btn btn-xs btn-cadastrar">Cadastre-se</button>
                         </a>
                     </div>
